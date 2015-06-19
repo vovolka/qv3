@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  max-width: 968px;
+  margin: auto;
+}
+
+//HEADER
+header {
+  .container {
+    padding-top: 10px;
+    height: 75px;
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #000;
+      line-height: 75px;
+    }
+    .logo {
+      margin-left: 3%;
+      float: left;
+    }
+    .signin {
+      margin: 0 3% 0 15%;
+      float: right;
+      text-decoration: underline;
+    }
+    .menu {
+      float: right;
+      margin: 0 15px;
+    }
+  }
+  &:after{
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+//HERO
+.hero {
+  .container {
+    text-align: center;
+    padding-bottom: 200px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    h1 {
+      margin: 150px 0 55px;
+      font-size: 36px;
+    }
+    a {
+      font-size: 24px;
+      text-decoration: none;
+      color: #000;
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding: 8px 15px;
+
+    }
+  }
+}
+
+//TRENDS
+.trends {
+  .container{
+    border-bottom: 1px solid #dddddd;
+    .title i, h2{
+      display: inline-block;
+      line-height: 30px;
+    }
+    .title{
+      height: 30px;
+      margin: 25px 0 25px;
+      i {
+        font-size: 22px;
+      }
+    }
+    .trends-list {
+      margin-bottom: 35px;
+      li {
+        display: inline-block;
+        font-size: 20px;
+        border: 1px solid #666666;
+        border-radius: 5px;
+        padding: 5px 25px;
+        cursor: pointer;
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+//FEATURES
+.features {
+  .container{
+    h2 {
+      margin-top: 55px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      padding: 0 55px;
+    }
+    .features-list {
+      margin: 100px 0;
+      .block {
+        float: left;
+        width: 33%;
+      }
+      .item {
+        margin-bottom: 35px;
+        .title{
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+          color: #666666;
+        }
+      }
+      .left {}
+      .center {
+        text-align: center;
+        img {
+          width: 55%;
+          margin-top: 10%;
+        }
+      }
+      .right {}
+      &:after{
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+
+    }
+  }
+}
+
+//DEVISES
+.devices {
+  .container{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 35px;
+    .title {
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .text {
+      font-size: 16px;
+    }
+    .devices-list{
+      margin: 55px 100px;
+      .item {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        width: 24%;
+        margin: auto;
+        text-align: center;
+        cursor: pointer;
+        i {
+          font-size: 46px;
+          margin-bottom: 15px;
+        }
+        .device {
+          font-size: 18px;
+          margin: 5px 0;
+        }
+        .alert{
+          color: #666666;
+        }
+      }
+    }
+  }
+}
+
+//FOOTER
+footer {
+  .container{
+    .title {
+      margin: 45px 0 25px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #666666;
+        border-radius: 3px;
+        padding: 5px 15px;
+      }
+    }
+    .wrapper {
+      max-width: 75%;
+      margin: auto;
+      .block {
+        float: left;
+        margin: 0 50px;
+        height: 150px;
+        .title{
+          text-align: left;
+        }
+        ul {
+          height: 84px;
+          li{
+            list-style-type: none;
+            cursor: pointer;
+          }
+        }
+      }
+      &:after{
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+
+    .corporate {
+      text-align: center;
+      margin: 55px 0 15px;
+    }
+  }
+}
